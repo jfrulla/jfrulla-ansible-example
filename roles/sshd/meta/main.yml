@@ -1,0 +1,23 @@
+---
+galaxy_info:
+  author: "Jake Frulla"
+  description: "Configures SSH daemon with sensible security settings"
+  company: "N/A"
+  
+  license: MIT
+  
+  min_ansible_version: "2.9"
+  
+  platforms:
+    - name: Rocky
+      versions:
+        - "9"
+  
+  galaxy_tags:
+    - system
+    - ssh
+    - sshd
+    - security
+    - access
+
+dependencies: [] 

@@ -1,0 +1,6 @@
+---
+- name: Run head node roles
+  hosts: head
+  roles:
+    - role: sshd
+      tags: sshd

@@ -1,0 +1,11 @@
+---
+roles:
+  - name: itigoag.packages
+
+collections:
+  - name: oasis_roles.system
+  - name: ansible.utils
+  - name: ansible.posix
+    version: 1.6.2
+  - name: community.general
+    version: 10.0.1
